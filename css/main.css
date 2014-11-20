@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Lato', Helvetica, sans-serif;
+    background-color: black;
 }
 
 .title {
@@ -123,6 +124,29 @@ body {
     text-transform: uppercase;
     font-weight: 600;
 }
+
+#promotion {
+    background-color: #1C1C1C;
+    -webkit-transition: background-color 0.5s ease;
+    -moz-transition: background-color 0.5s ease;
+    -o-transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease;
+}
+
+#promotion:hover {
+    background-color: black;
+    -webkit-transition: background-color 0.5s ease;
+    -moz-transition: background-color 0.5s ease;
+    -o-transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease;
+}
+
+#promotion h1 {
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
 
 #about p {
     color: whitesmoke;
